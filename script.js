@@ -1,9 +1,8 @@
-var a = 48;
-var b = 108;
-var c = 33;
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
 
-// Only modify code below this line
+// Only change code below this line
+var myFirstName = "Jason";
+var myLastName = "Rostar";
 
-a /=  12;
-b /=  4;
-c /=  11;

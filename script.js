@@ -1,7 +1,10 @@
+// Example
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+
 // Setup
-var myStr = "Jello World";
+var lastName = "Lovelace";
 
-// Only change code below this line
-myStr = "Hello World";
-
+// Only change code below this line.
+var thirdLetterOfLastName = lastName[2];
 

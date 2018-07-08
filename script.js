@@ -1,5 +1,9 @@
-// Only change code below this line
+var a = 3;
+var b = 17;
+var c = 12;
 
-var remainder;
+// Only modify code below this line
 
-remainder = 11 % 3;
+a += 12;
+b += 9;
+c += 7;

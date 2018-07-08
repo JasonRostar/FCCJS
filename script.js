@@ -1,8 +1,2 @@
-// Example
-var firstName = "Alan";
-var lastName = "Turing";
-
-// Only change code below this line
-var myFirstName = "Jason";
-var myLastName = "Rostar";
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 

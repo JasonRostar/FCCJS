@@ -1,2 +1,1 @@
-var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
-
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line

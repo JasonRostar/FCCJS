@@ -1,12 +1,5 @@
-function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-    // Your code below this line
-    var result = "I have a " + myNoun + " that is very " + myAdjective + " and " + myVerb + " very " + myAdverb + "!";
-  
-    // Your code above this line
-    return result;
-  }
-  
-  // Change the words here to test your function
-  wordBlanks("dog", "big", "ran", "quickly");
+// Example
+var ourArray = ["John", 23];
 
-  
+// Only change code below this line.
+var myArray = ["yeah!", 18];

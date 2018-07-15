@@ -1,2 +1,13 @@
-var myList = [["Chocolate Bar", 2], ["Steak", 10], ["Chicken", 12], ["Salad", 6], ["Pickles", 1]];
-
+// Example
+function ourReusableFunction() {
+    console.log("Heyya, World");
+  }
+  
+  ourReusableFunction();
+  
+  // Only change code below this line
+  function reusableFunction() {
+      console.log("Hi World");
+  }
+  
+  reusableFunction();

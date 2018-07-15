@@ -1,12 +1,2 @@
-// Example
-var ourArray = ["Stimpson", "J", "cat"];
-ourArray.shift(); // ourArray now equals ["J", "cat"]
-ourArray.unshift("Happy"); 
-// ourArray now equals ["Happy", "J", "cat"]
+var myList = [["Chocolate Bar", 2], ["Steak", 10], ["Chicken", 12], ["Salad", 6], ["Pickles", 1]];
 
-// Setup
-var myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
-
-// Only change code below this line.
-myArray.unshift(["Paul", 35]);

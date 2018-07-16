@@ -1,12 +1,19 @@
-// Example
-function ourFunctionWithArgs(a, b) {
-    console.log(a - b);
+// Declare your variable here
+ 
+var myGlobal = 10;
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5;
+}
+
+// Only change code above this line
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
   }
-  ourFunctionWithArgs(10, 5); // Outputs 5
-  
-  // Only change code below this line.
-  function functionWithArgs(c, d) {
-    console.log(c + d);
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
   }
-  
-  functionWithArgs(5, 6);
+  console.log(output);
+}

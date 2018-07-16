@@ -1,13 +1,12 @@
 // Example
-function ourReusableFunction() {
-    console.log("Heyya, World");
+function ourFunctionWithArgs(a, b) {
+    console.log(a - b);
+  }
+  ourFunctionWithArgs(10, 5); // Outputs 5
+  
+  // Only change code below this line.
+  function functionWithArgs(c, d) {
+    console.log(c + d);
   }
   
-  ourReusableFunction();
-  
-  // Only change code below this line
-  function reusableFunction() {
-      console.log("Hi World");
-  }
-  
-  reusableFunction();
+  functionWithArgs(5, 6);

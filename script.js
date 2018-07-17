@@ -1,12 +1,13 @@
-function myLocalScope(myVar) {
-    'use strict'; // you shouldn't need to edit this line
-    var myVar = "foo";
-    console.log(myVar);
-  }
-  myLocalScope();
-  
-  // Run and check the console
-  // myVar is not defined outside of myLocalScope
+// Setup
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  var outerWear = "sweater";
   
   
-  // Now remove the console log line to pass the test
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();

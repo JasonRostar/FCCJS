@@ -1,12 +1,14 @@
 // Example
-function minusSeven(num) {
-    return num - 7;
-  }
-  
-  // Only change code below this line
-  function timesFive(num) {
-    return num * 5;
-  }
-  
-  console.log(minusSeven(10));
-  console.log(timesFive(5));
+var sum = 0;
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+var sum = 0;
+function addFive() {
+  sum = sum + 5;
+}
+
+// Only change code above this line
+var returnedValue = addFive();

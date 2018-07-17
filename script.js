@@ -1,13 +1,12 @@
-// Setup
-var outerWear = "T-Shirt";
-
-function myOutfit() {
+// Example
+function minusSeven(num) {
+    return num - 7;
+  }
+  
   // Only change code below this line
-  var outerWear = "sweater";
+  function timesFive(num) {
+    return num * 5;
+  }
   
-  
-  // Only change code above this line
-  return outerWear;
-}
-
-myOutfit();
+  console.log(minusSeven(10));
+  console.log(timesFive(5));

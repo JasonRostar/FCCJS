@@ -1,23 +1,10 @@
-// Example
-function ourTrueOrFalse(isItTrue) {
-    if (isItTrue) { 
-      return "Yes, it's true";
+// Setup
+function testEqual(val) {
+    if (val == 12) { // Change this line
+      return "Equal";
     }
-    return "No, it's false";
-  }
-  
-  // Setup
-  function trueOrFalse(wasThatTrue) {
-  
-    // Only change code below this line.
-    if (wasThatTrue) {
-        return "Yes, that was true";
-    }
-    return "No, that was false";
-  
-    // Only change code above this line.
-  
+    return "Not Equal";
   }
   
   // Change this value to test
-  trueOrFalse(true);
+  console.log(testEqual(10));

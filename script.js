@@ -1,14 +1,19 @@
 // Example
-var sum = 0;
-function addThree() {
-  sum = sum + 3;
+var changed = 0;
+
+function change(num) {
+  return (num + 5) / 3;
+}
+
+changed = change(10);
+
+// Setup
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
 }
 
 // Only change code below this line
-var sum = 0;
-function addFive() {
-  sum = sum + 5;
-}
 
-// Only change code above this line
-var returnedValue = addFive();
+processed = processArg(7);

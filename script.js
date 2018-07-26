@@ -1,15 +1,13 @@
-function testLessOrEqual(val) {
-    if (val <= 12) {  // Change this line
-      return "Smaller Than or Equal to 12";
-    }
-    
-    if (val <= 24) {  // Change this line
-      return "Smaller Than or Equal to 24";
+function testLogicalAnd(val) {
+    // Only change code below this line
+  
+    if (val <= 50 && val >= 25) {
+        return "Yes";
     }
   
-    return "More Than 24";
+    // Only change code above this line
+    return "No";
   }
   
   // Change this value to test
-  testLessOrEqual(10);
-  
+  testLogicalAnd(10);
